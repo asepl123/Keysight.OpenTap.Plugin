@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +11,6 @@ namespace Keysight.OpenTap.Plugins.Exg.Source
     public class Sweep : TestStep
     {
         #region Settings
-        // ToDo: Add property here for each parameter the end user should be able to change
 
         private MyInst _MyInst;
 
