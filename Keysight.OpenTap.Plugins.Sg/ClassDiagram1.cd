@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Keysight.OpenTap.Plugins.Sg.SgKeysightMxg">
+    <Position X="0.75" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AiDAQAJAoAAAIAgAKAAAAwIABIAAAEAIAggiACjBDAA=</HashCode>
+      <FileName>KeysightMxg.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Keysight.OpenTap.Plugins.Sg.IArbGen" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAARAAAAAAAAkAABAAAAAEgAAAAAAAAAAA=</HashCode>
+      <FileName>IArbGen.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Keysight.OpenTap.Plugins.Sg.ISg" Collapsed="true">
+    <Position X="1" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiBAQAIAoAAARAgACAAAAAIABIAAAAAAAgAiAACBDAA=</HashCode>
+      <FileName>ISg.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Keysight.OpenTap.Plugins.Interfaces.SG.ISg" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Keysight.OpenTap.Plugins.Interfaces.SCPI.IScpi" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Keysight.OpenTap.Plugins.Interfaces.MultiModeInstrument.IMultiModeInstrument" Collapsed="true">
+    <Position X="11.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="Keysight.OpenTap.Plugins.Sg.EArbRefSource" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAIAIAAAAAAAA=</HashCode>
+      <FileName>IArbGen.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Keysight.OpenTap.Plugins.Sg.FileFormat" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAQAAAAAAAiAKAAAAAAAAAAAEAAAAAAAAIAgQAA=</HashCode>
+      <FileName>IArbGen.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Keysight.OpenTap.Plugins.Sg.DataType" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAACAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IArbGen.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Keysight.OpenTap.Plugins.Sg.Padding" Collapsed="true">
+    <Position X="9.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IArbGen.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Keysight.OpenTap.Plugins.Sg.Channel" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAIA=</HashCode>
+      <FileName>IArbGen.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Keysight.OpenTap.Plugins.Sg.EState" Collapsed="true">
+    <Position X="1" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>ISg.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Keysight.OpenTap.Plugins.Sg.ERefSource" Collapsed="true">
+    <Position X="2.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACIAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>ISg.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Keysight.OpenTap.Plugins.Sg.EopcStatus" Collapsed="true">
+    <Position X="1" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISg.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Keysight.OpenTap.Plugins.Sg.ETriggerPolarity" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAACA=</HashCode>
+      <FileName>ISg.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Keysight.OpenTap.Plugins.Interfaces.SG.ERefSource" Collapsed="true">
+    <Position X="8.25" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Keysight.OpenTap.Plugins.Interfaces.SG.ETriggerPolarity" Collapsed="true">
+    <Position X="6.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Keysight.OpenTap.Plugins.Interfaces.SG.EArbRefSource" Collapsed="true">
+    <Position X="6.5" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Keysight.OpenTap.Plugins.Interfaces.MultiModeInstrument.EInstrumentMode" Collapsed="true">
+    <Position X="13.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
